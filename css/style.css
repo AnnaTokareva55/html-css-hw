@@ -120,3 +120,77 @@ h2 {
 	width: 100%;
 	clear: both;
 }
+
+.dignity {
+	width: 100%;
+	background-color: #F5F5F5;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.dignity-details {
+	margin: 30px 0 0 0;
+	font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.dignity-details summary {
+	display: inline-block;
+	padding: 0 0 0 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+/*Удаление рамки с активного элемента summary*/
+.dignity-details summary:focus {
+	outline: none;
+}
+
+/*Удаление стандартного маркера details*/
+.dignity-details summary::-webkit-details-marker {
+	display: none;
+}
+.dignity-details summary::-moz-list-bullet {
+	list-style-type: none;
+}
+
+/*Добавление нового маркера details*/
+.dignity-details summary:before {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../img/dignity-details-icon.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.dignity-details-text {
+	padding: 0 0 0 40px;
+	box-sizing: border-box;
+}
+
+.dignity-left {
+	width: 570px;
+	float: left;
+}
+
+.dignity-right {
+	width: 570px;
+	float: right;
+}
+
+.dignity:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
