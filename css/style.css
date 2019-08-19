@@ -73,3 +73,50 @@
 	width: 100%;
 	clear: both;
 }
+
+h2 {
+	font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+}
+
+.about-product {
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.about-product-wrapper {
+	width: 655px;
+	float: left;
+}
+
+.about-product-title{
+	text-align: left;
+}
+
+.about-product-text {
+	margin: 20px 0 0 0;
+	font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about-product-video {
+	width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.about-product:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
